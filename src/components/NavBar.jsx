@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import CartWidget from './CartWidget';
 
 
-
-
 const NavBar = () => {
+
+
+    // para saber el ciclo de vida del componente y saber cuanto timempo estuvo en pantalla 
+
+    useEffect (()=>{
+
+       return ()=> {console.log("Se monto la NavBar")}
+
+    }, [])
+
     return (
         <>
             <header>

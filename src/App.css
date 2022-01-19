@@ -15,6 +15,11 @@ header {
   background-color: #24252a;
 }
 
+.Welcome {
+  text-align: center;
+  
+}
+
 .logo {
   cursor: pointer;
 }
@@ -161,3 +166,13 @@ div svg {
 }
 
 /* end navbar */
+
+/* product container */
+
+
+
+.ProductContainer {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
